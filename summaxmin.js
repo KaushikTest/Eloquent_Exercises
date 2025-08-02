@@ -51,8 +51,8 @@ function result(array) {
     let result1 = summin(array1);
     let result2 = summax(array2);
 
-    console.log('Sum of minimums: ' + result1);
-    console.log('Sum of maximums: ' + result2);
+    console.log(result1, result2);
+
 
 }
 

@@ -5,7 +5,7 @@ function plusminus(array) {
     count_negative = 0;
     count_zero = 0;
 
-    for (element of array) {
+    for (let element of array) {
         if (element > 0) {
             count_positive++;
         }
